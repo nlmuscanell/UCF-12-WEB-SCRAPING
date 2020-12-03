@@ -148,7 +148,6 @@ def scrape():
         # Append the list with dictionaries
         hemisphere_image_urls.append(hemispheres_dict)
  
-
     # Store all mars data in the dictionary
     mars_data = {
         "news_title": news_title,

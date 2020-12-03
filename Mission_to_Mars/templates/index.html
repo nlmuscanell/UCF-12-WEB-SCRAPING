@@ -30,6 +30,7 @@
     </div>
   </div>
 </div>
+
  <!-----------Feature Image & Facts Table--------->
  <div class="container-fluid"> 
   <div class="row">
@@ -58,8 +59,7 @@
    {% for image in mars.hemisphere_image_urls %}
    <div class="col-md-6">
      <center><img src="{{ image.image_url }}" style="height:500px;"></center>
-     <center><h3>{{ image.hemisphere_names }}</h></center>
-   
+     <center><h3>{{ image.hemisphere_names }}</h></center>  
  </div>
 {% endfor %}
 
